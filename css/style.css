@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-attachment: fixed;
+  }
+  
+  aside {
+    padding: 2rem;
+    padding-right: 0;
+    background-color: #c77604;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /*BRAND NAME AND LOGO*/
+  .webname {
+    display: flex;
+    margin: auto;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    width: 3rem;
+    margin-left: 50px;
+  }
+  .logo:hover {
+    filter: drop-shadow(0px 1px 14px #ffffff);
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  header {
+    display: block;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-left: 30px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .texto-footer {
+    font-size: 0.85rem;
+  }
+  
+  main {
+    background-color: #464444;
+    margin-left: 0;
+    padding: 3rem;
+  }
+  
+  .titulo-principal {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  /*CARDS*/
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 10px;
+    height: 480px;
+  }
+  
+  .producto .gameimg {
+    max-width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+  }
+  .producto .gameimg:hover {
+    filter: drop-shadow(0px 1px 14px #eea505);
+  }
+  .producto .game {
+    color: #ffffff;
+    font-family: "Orbitron", sans-serif;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .producto .p-article {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    font-family: monospace;
+    font-size: 14px;
+    color: #b4b4b4;
+    height: 200px;
+  }
+  .producto .producto-precio {
+    color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  /*BOTON AGREGAR A FAV*/
+  .juego-agregar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .juego-agregar:hover {
+    filter: drop-shadow(0px 1px 14px #d88602);
+  }
+  
+  /*BOTONES MENU*/
+  .boton-menu {
+    padding: 15px;
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    font-family: "Orbitron", sans-serif;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    gap: 1rem;
+    padding: 15px;
+    align-items: center;
+  }
+  .boton-menu:hover {
+    filter: drop-shadow(0px 1px 14px #ffffff);
+  }
+  .boton-menu.boton-activo {
+    background-color: #151515;
+    transition: 1s;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
+  
+  .boton-menu.boton-activo::after {
+    background-color: #151515;
+    transition: 2s;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .boton-menu.boton-activo::before {
+    background-color: #151515;
+    transition: 2s;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
+  /*FOOTER*/
+  .texto-footer {
+    font-family: "Orbitron", sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  
+  /*CARRITO HMTL*/
+  /* CARRITO */
+  
+  .contenedor-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .carrito-vacio,
+  .carrito-comprado {
+    color: #ffffff;
+  }
+  
+  .carrito-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .carrito-producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b47c04;
+    color: #ffffff;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+  }
+  
+  .carrito-h3-producto {
+    font-size: 1.2rem;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 400px;
+  }
+  
+  .carrito-producto-imagen {
+    width: 4rem;
+    border-radius: 1rem;
+    margin-left: 15px;
+  }
+  
+  .carrito-producto-small {
+    font-size: 0.75rem;
+  }
+  
+  .carrito-producto-eliminar {
+    border: 0;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 700;
+  }
+  
+  .carrito-acciones {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carrito-acciones-vaciar {
+    border: 0;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #151515;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .carrito-acciones-derecha {
+    display: flex;
+  }
+  
+  .carrito-acciones-total {
+    display: flex;
+    background-color: #eea505;
+    padding: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    gap: 1rem;
+  }
+  
+  .carrito-acciones-comprar {
+    border: 0;
+    background-color: #ffffff;
+    padding: 1rem;
+    color: #151515;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  /*CHECKOUT HTML*/

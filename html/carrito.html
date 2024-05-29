@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../imagenes/Logo.png" type="image/x-icon" />
+    <title>Loco por los juegos</title>
+
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--GOOGLE FONTS LINK-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Orbitron:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+    </style>
+    <!--LINK JAVA SCRIPT-->
+    
+    <script src="../app/favjuegos.js" defer></script>
+    <!--SWEET ALERT-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <aside>
+        <header>
+          <a href="../index.html"
+            ><img src="../img/logo.jpg" class="logo" alt="Logo"
+          /></a>
+          <h1 class="webname">Loco por los juegos</h1>
+        </header>
+        <nav>
+          <ul>
+            <li>
+              <a href="../index.html" class="boton-volver boton-menu">
+                <i class="bi bi-caret-left-fill"></i>Continua comprando
+              </a>
+            </li>
+            <li>
+              <a href="../html/carrito.html" class="boton-carrito active boton-menu">
+                <i class="bi bi-cart-fill"></i>Carrito
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <footer>
+          <p class="texto-footer">Juan Cruz Lemos © 2024</p>
+        </footer>
+      </aside>
+      <main>
+    <h2 class="titulo-principal">Cart</h2>
+    <div class="contenedor-carrito">
+        <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio <i class="bi bi-emoji-dizzy-fill"></i> </p>
+        
+        <div id="carrito-productos" class="carrito-productos disabled">
+            <!-- Esto se completa en JS -->
+        </div>
+    
+
+        <div id="carrito-acciones" class="carrito-acciones">
+            <div class="carrito-acciones-izquierda">
+                <button class="carrito-acciones-vaciar" id="carrito-acciones-vaciar">carro vacio</button>
+            </div>
+
+            <div class="carrito-acciones-derecha">
+                <div class="carrito-acciones-total">
+                    <p>Total:</p>
+                    <p id="total">$0</p>
+                </div>
+                <button id="carrito-acciones-comprar" class="carrito-acciones-comprar" >Comprar ahora</button>
+            </div>
+        </div>
+        
+    </div>
+        <p id="carrito-comprado" class="carrito-comprado disabled" ><i class="bi bi-emoji-sunglasses-fill"></i> </p>
+
+
+    </div>
+    </div>
+    
+    
+  </body>
+</html>

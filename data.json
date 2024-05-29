@@ -1,0 +1,134 @@
+[
+    {
+      "id": "red",
+      "title": "Red Dead Redemption II",
+      "imageUrl": "./img/red.jpg",
+      "content": "",
+      "price": "$15000",
+      "categoria": {
+        "nombre": "RPG",
+        "id": "rpg"
+      }
+    },
+    {
+      "id": "batman",
+      "title": "Batman Arkham Knight",
+      "imageUrl": "./img/batman.jpg",
+      "content": "",
+      "price": "$8000",
+      "categoria": {
+        "nombre": "RPG",
+        "id": "rpg"
+      }
+    },
+    {
+      "id": "gow",
+      "title": "God of War: Ragnarök",
+      "imageUrl": "./img/gow2.webp",
+      "content": "",
+      "price": "$25000",
+      "categoria": {
+        "nombre": "RPG",
+        "id": "rpg"
+      }
+    },
+    {
+      "id": "legostarwars",
+      "title": "LEGO Star Wars the Skywalker SAGA",
+      "imageUrl": "./img/legostarwars.jfif",
+      "content": "",
+      "price": "$8000",
+      "categoria": {
+        "nombre": "Action",
+        "id": "action"
+      }
+    },
+    {
+      "id": "legomarvel",
+      "title": "LEGO Marvel",
+      "imageUrl": "./img/legomarvel.jpg",
+      "content": "",
+      "price": "$6000",
+      "categoria": {
+        "nombre": "Action",
+        "id": "action"
+      }
+    },
+    {
+      "id": "jedi",
+      "title": "Star Wars Jedi Fallen Order",
+      "imageUrl": "./img/jedi.jpg",
+      "content": "",
+      "price": "$15000",
+      "categoria": {
+        "nombre": "Action",
+        "id": "action"
+      }
+    },
+    {
+      "id": "bt",
+      "title": "Battlefield 1",
+      "imageUrl": "./img/bt.jpg",
+      "content": "",
+      "price": "$18000",
+      "categoria": {
+        "nombre": "Action",
+        "id": "action"
+      }
+    },
+    {
+      "id": "fifa",
+      "title": "FC24",
+      "imageUrl": "./img/fc.avif",
+      "content": "",
+      "price": "$25000",
+      "categoria": {
+        "nombre": "Sports",
+        "id": "sports"
+      }
+    },
+    {
+      "id": "wwe",
+      "title": "WWE 2k24",
+      "imageUrl": "./img/wwe.avif",
+      "content": "",
+      "price": "$16000",
+      "categoria": {
+        "nombre": "Sports",
+        "id": "sports"
+      }
+    },
+    {
+      "id": "ass",
+      "title": "Assassins Creed Valhalla",
+      "imageUrl": "./img/ass.jfif",
+      "content": "",
+      "price": "$20000",
+      "categoria": {
+        "nombre": "RPG",
+        "id": "rpg"
+      }
+    },
+    {
+      "id": "gtav",
+      "title": "Grand Theft Auto V",
+      "imageUrl": "./img/gtav.jpg",
+      "content": "",
+      "price": "$25000",
+      "categoria": {
+        "nombre": "Action",
+        "id": "action"
+      }
+    },
+    {
+      "id": "hp",
+      "title": "Harry Potter y las Reliquias de la Muerte",
+      "imageUrl": "./img/hp.webp",
+      "content": "",
+      "price": "$7000",
+      "categoria": {
+        "nombre": "Action",
+        "id": "action"
+      }
+    }
+  ]

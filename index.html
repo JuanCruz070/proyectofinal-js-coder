@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" />
+    <title>Loco por los juegos</title>
+
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--GOOGLE FONTS LINK-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Orbitron:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+    </style>
+
+    <script src="./app/index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <aside>
+        <header>
+          <a href="./index.html"
+            ><img src="./img/logo.jpg" class="logo" alt="Logo"
+          /></a>
+          <h1 class="webname">Loco por los juegos</h1>
+        </header>
+        <nav>
+          <ul>
+            <li>
+              <button id="todos" class="boton-menu boton-categoria active">
+                <i class="bi bi-caret-right-fill"></i> Todos
+              </button>
+            </li>
+            <li>
+              <button
+                id="sports"
+                class="boton-menu boton-categoria"
+                data-categoria="sports"
+              >
+                <i class="bi bi-caret-right"></i> Deportes
+              </button>
+            </li>
+            <li>
+              <button
+                id="rpg"
+                class="boton-menu boton-categoria"
+                data-categoria="rpg"
+              >
+                <i class="bi bi-caret-right"></i> RPG
+              </button>
+            </li>
+            <li>
+              <button
+                id="action"
+                class="boton-menu boton-categoria"
+                data-categoria="action"
+              >
+                <i class="bi bi-caret-right"></i> Accion
+              </button>
+            </li>
+            <li>
+              <a href="./html/carrito.html" class="boton-carrito boton-menu">
+                <i class="bi bi-cart-fill"></i>Carrito
+                <span id="numerito" class="numerito">0</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <footer>
+          <p class="texto-footer">Juan Cruz Lemos © 2024</p>
+        </footer>
+      </aside>
+      <main>
+        <h2 id="titulo-principal" class="titulo-principal">Todos los juegos</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+          <!-- Esto se rellena con JS-->
+        </div>
+      </main>
+    </div>
+    <!--LINK SweetAlert-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

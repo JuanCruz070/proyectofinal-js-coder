@@ -1,0 +1,11 @@
+{
+    "name": "locoporlosjuegos",
+    "version": "1.0.0",
+    "description": "Tienda loco por los juegos",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
